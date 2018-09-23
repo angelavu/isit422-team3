@@ -1,0 +1,18 @@
+<div class="boxed">
+  <b>Invoice:</b>
+  <div>
+      <label class="labels">Quantity:
+          <input [(ngModel)]="qty">
+           <!-- ngModel is making the link back to our ts class -->
+      </label>
+  </div>
+  <div>
+      <label class="labels">Cost:
+          <input [(ngModel)]="cost">
+      </label>
+  </div>
+  <div>
+    Quantity {{qty}} x  Cost {{cost}} = Total  {{qty * cost | currency}}
+  </div>
+ </div>
+ 

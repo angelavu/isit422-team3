@@ -1,0 +1,12 @@
+h2 {
+    font-size: 2em;
+    color: rgb(214, 16, 16);
+    }
+ h3 {
+    font-size: 1.52em;
+    color: rgb(16, 214, 33);
+    }
+ .boxed {
+    border: 3px solid rgb(13, 0, 128) ;
+    }
+ 
