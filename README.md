@@ -2,7 +2,7 @@
 HW for team3!
 
 ## Team 3
-Angela Vu
-Benjamin Vinicky
-James Porter
+Angela Vu  
+Benjamin Vinicky  
+James Porter  
 Michael Warren
