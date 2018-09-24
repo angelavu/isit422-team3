@@ -9,6 +9,7 @@ import { CalculateComponent } from './calculate/calculate.component';
 import { PhrasesComponent } from './phrases/phrases.component';
 import { TimerComponent } from './timer/timer.component';
 import { CounterComponent } from './counter/counter.component';
+import { CheckEvenOddComponent } from './check-even-odd/check-even-odd.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CounterComponent } from './counter/counter.component';
     CalculateComponent,
     PhrasesComponent,
     TimerComponent,
-    CounterComponent
+    CounterComponent,
+    CheckEvenOddComponent
   ],
   imports: [
     BrowserModule,
