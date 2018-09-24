@@ -8,6 +8,7 @@ import { SimpletextComponent } from './simpletext/simpletext.component';
 import { CalculateComponent } from './calculate/calculate.component';
 import { PhrasesComponent } from './phrases/phrases.component';
 import { TimerComponent } from './timer/timer.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TimerComponent } from './timer/timer.component';
     SimpletextComponent,
     CalculateComponent,
     PhrasesComponent,
-    TimerComponent
+    TimerComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
