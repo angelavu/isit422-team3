@@ -1,0 +1,8 @@
+<div class="even-odd">
+  <h2>Check if a Number is Even or Odd</h2>
+
+  <input #inputBox (keyup)="update(inputBox.value)" class="inputBox">
+
+  <button (click)="checkEvenOdd()">Check</button>
+  <p>{{checkMessage}}</p>
+</div>
